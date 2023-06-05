@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+.vercel_build_output/**
+static/**
+/coverage
+CHANGELOG.md
+src/lib/models/types/**
+.idea
+dev-dist
+
+/infra/helm/templates/deployment.yaml
+infra/helm/templates/ingress.yaml
+schema.graphql
+$houdini
+infra/hasura
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
