@@ -1,5 +1,0 @@
-.markdownlintignore
-CHANGELOG.md
-.github/CODEOWNERS
-node_modules
-tmp
